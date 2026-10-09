@@ -1,27 +1,24 @@
-# 🎨 Art Blog – Front-End Personal Blog
+# Studio Notes — Art Journal Portfolio
 
-## 📌 Description
-This is a front-end personal blog website about a woman in the art industry. The blog includes a biography section, gallery, and thoughts on creativity, built with a clean and artistic layout.
+A responsive, editorial-style personal art portfolio concept made with semantic HTML and CSS.
 
-## 🔧 Technologies Used
-- HTML5
-- CSS3
-- Responsive layout with mobile-first design
+## Run locally
+Open `index.html` in a browser. No build step or package installation is required.
 
-## 🎯 Features
-- Introduction and biography of the featured artist
-- Clean blog-style layout with strong visual storytelling
-- Image gallery of artistic works
-- Fully responsive and modern design
-- Designed with a calm and elegant color palette
+## Features
+- Artist introduction and biography section
+- CSS-created abstract artwork studies and responsive gallery
+- Journal feature and contact section
+- Mobile-friendly layout, keyboard skip link, meaningful landmarks, and responsive navigation
+- No missing local image assets; abstract artwork is drawn with CSS
 
-## 🖼 Screenshots
-(Add screenshots of homepage, gallery, and article sections here)
+## Before publishing
+Replace the placeholder contact address `hello@example.com`, add the artist's real biography and artwork, and review all copy for accuracy. This is a front-end portfolio concept; it does not include a CMS or contact-form backend.
 
-## 🚀 Live Demo
-[🔗 Demo link here](#) (Optional: Add Netlify/Vercel link if deployed)
+## Files
+- `index.html` — page content and metadata
+- `style.css` — design system, artwork, and responsive layout
 
-## 👤 Author
-Hesam Afkhami  
-[LinkedIn Profile](https://www.linkedin.com/in/hesam-afkhami)  
-Email: hesamafkhami@gmail.com
+
+## Quality checks
+A GitHub Actions workflow checks that local stylesheet references, local file links, and in-page anchors point to existing targets on every push and pull request.
