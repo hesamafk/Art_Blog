@@ -18,3 +18,7 @@ Replace the placeholder contact address `hello@example.com`, add the artist's re
 ## Files
 - `index.html` — page content and metadata
 - `style.css` — design system, artwork, and responsive layout
+
+
+## Quality checks
+A GitHub Actions workflow checks that local stylesheet references, local file links, and in-page anchors point to existing targets on every push and pull request.
